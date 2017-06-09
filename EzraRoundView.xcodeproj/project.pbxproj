@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7BAD6D11EEA7D4B00E847F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD6D01EEA7D4B00E847F4 /* main.m */; };
+		F7BAD6D41EEA7D4B00E847F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD6D31EEA7D4B00E847F4 /* AppDelegate.m */; };
+		F7BAD6D71EEA7D4B00E847F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD6D61EEA7D4B00E847F4 /* ViewController.m */; };
+		F7BAD6DA1EEA7D4B00E847F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD6D81EEA7D4B00E847F4 /* Main.storyboard */; };
+		F7BAD6DC1EEA7D4B00E847F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD6DB1EEA7D4B00E847F4 /* Assets.xcassets */; };
+		F7BAD6DF1EEA7D4B00E847F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BAD6DD1EEA7D4B00E847F4 /* LaunchScreen.storyboard */; };
+		F7BAD6E91EEA7D8500E847F4 /* EzraRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD6E81EEA7D8500E847F4 /* EzraRoundView.m */; };
+		F7BAD6EC1EEA7FC400E847F4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BAD6EB1EEA7FC400E847F4 /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7BAD6CC1EEA7D4B00E847F4 /* EzraRoundView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzraRoundView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BAD6D01EEA7D4B00E847F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7BAD6D21EEA7D4B00E847F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7BAD6D31EEA7D4B00E847F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7BAD6D51EEA7D4B00E847F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7BAD6D61EEA7D4B00E847F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7BAD6D91EEA7D4B00E847F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7BAD6DB1EEA7D4B00E847F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7BAD6DE1EEA7D4B00E847F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7BAD6E01EEA7D4B00E847F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BAD6E71EEA7D8500E847F4 /* EzraRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzraRoundView.h; sourceTree = "<group>"; };
+		F7BAD6E81EEA7D8500E847F4 /* EzraRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzraRoundView.m; sourceTree = "<group>"; };
+		F7BAD6EA1EEA7FC400E847F4 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F7BAD6EB1EEA7FC400E847F4 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7BAD6C91EEA7D4B00E847F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7BAD6C31EEA7D4B00E847F4 = {
+			isa = PBXGroup;
+			children = (
+				F7BAD6CE1EEA7D4B00E847F4 /* EzraRoundView */,
+				F7BAD6CD1EEA7D4B00E847F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7BAD6CD1EEA7D4B00E847F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD6CC1EEA7D4B00E847F4 /* EzraRoundView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7BAD6CE1EEA7D4B00E847F4 /* EzraRoundView */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD6D21EEA7D4B00E847F4 /* AppDelegate.h */,
+				F7BAD6D31EEA7D4B00E847F4 /* AppDelegate.m */,
+				F7BAD6D51EEA7D4B00E847F4 /* ViewController.h */,
+				F7BAD6D61EEA7D4B00E847F4 /* ViewController.m */,
+				F7BAD6E61EEA7D6900E847F4 /* EzraRoundView */,
+				F7BAD6D81EEA7D4B00E847F4 /* Main.storyboard */,
+				F7BAD6DB1EEA7D4B00E847F4 /* Assets.xcassets */,
+				F7BAD6DD1EEA7D4B00E847F4 /* LaunchScreen.storyboard */,
+				F7BAD6E01EEA7D4B00E847F4 /* Info.plist */,
+				F7BAD6CF1EEA7D4B00E847F4 /* Supporting Files */,
+			);
+			path = EzraRoundView;
+			sourceTree = "<group>";
+		};
+		F7BAD6CF1EEA7D4B00E847F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD6D01EEA7D4B00E847F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7BAD6E61EEA7D6900E847F4 /* EzraRoundView */ = {
+			isa = PBXGroup;
+			children = (
+				F7BAD6E71EEA7D8500E847F4 /* EzraRoundView.h */,
+				F7BAD6E81EEA7D8500E847F4 /* EzraRoundView.m */,
+				F7BAD6EA1EEA7FC400E847F4 /* UIColor+Hex.h */,
+				F7BAD6EB1EEA7FC400E847F4 /* UIColor+Hex.m */,
+			);
+			path = EzraRoundView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7BAD6CB1EEA7D4B00E847F4 /* EzraRoundView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BAD6E31EEA7D4B00E847F4 /* Build configuration list for PBXNativeTarget "EzraRoundView" */;
+			buildPhases = (
+				F7BAD6C81EEA7D4B00E847F4 /* Sources */,
+				F7BAD6C91EEA7D4B00E847F4 /* Frameworks */,
+				F7BAD6CA1EEA7D4B00E847F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzraRoundView;
+			productName = EzraRoundView;
+			productReference = F7BAD6CC1EEA7D4B00E847F4 /* EzraRoundView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7BAD6C41EEA7D4B00E847F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ezra;
+				TargetAttributes = {
+					F7BAD6CB1EEA7D4B00E847F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MK2DJW4SK4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7BAD6C71EEA7D4B00E847F4 /* Build configuration list for PBXProject "EzraRoundView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7BAD6C31EEA7D4B00E847F4;
+			productRefGroup = F7BAD6CD1EEA7D4B00E847F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7BAD6CB1EEA7D4B00E847F4 /* EzraRoundView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7BAD6CA1EEA7D4B00E847F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BAD6DF1EEA7D4B00E847F4 /* LaunchScreen.storyboard in Resources */,
+				F7BAD6DC1EEA7D4B00E847F4 /* Assets.xcassets in Resources */,
+				F7BAD6DA1EEA7D4B00E847F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7BAD6C81EEA7D4B00E847F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BAD6D71EEA7D4B00E847F4 /* ViewController.m in Sources */,
+				F7BAD6EC1EEA7FC400E847F4 /* UIColor+Hex.m in Sources */,
+				F7BAD6D41EEA7D4B00E847F4 /* AppDelegate.m in Sources */,
+				F7BAD6D11EEA7D4B00E847F4 /* main.m in Sources */,
+				F7BAD6E91EEA7D8500E847F4 /* EzraRoundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7BAD6D81EEA7D4B00E847F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BAD6D91EEA7D4B00E847F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7BAD6DD1EEA7D4B00E847F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BAD6DE1EEA7D4B00E847F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7BAD6E11EEA7D4B00E847F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7BAD6E21EEA7D4B00E847F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7BAD6E41EEA7D4B00E847F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MK2DJW4SK4;
+				INFOPLIST_FILE = EzraRoundView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ezra.EzraRoundView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7BAD6E51EEA7D4B00E847F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MK2DJW4SK4;
+				INFOPLIST_FILE = EzraRoundView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ezra.EzraRoundView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7BAD6C71EEA7D4B00E847F4 /* Build configuration list for PBXProject "EzraRoundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BAD6E11EEA7D4B00E847F4 /* Debug */,
+				F7BAD6E21EEA7D4B00E847F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BAD6E31EEA7D4B00E847F4 /* Build configuration list for PBXNativeTarget "EzraRoundView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BAD6E41EEA7D4B00E847F4 /* Debug */,
+				F7BAD6E51EEA7D4B00E847F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7BAD6C41EEA7D4B00E847F4 /* Project object */;
+}
